@@ -55,6 +55,11 @@ int main(int argc, const char * argv[])
     std::cout<< doAnything( 2, 2, FunctorPlus() ) <<std::endl;
     std::cout<< doAnything( 2, 2, FunctorMinus() ) <<std::endl;
     std::cout<< doAnything( 2, 2, FunctorMultConst( 50 ) ) <<std::endl;
+    
+    //outputs:
+    //4
+    //0
+    //200
 
     return 0;
 }
